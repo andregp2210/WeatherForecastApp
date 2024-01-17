@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "weather_forecast_app_entities/1.0.0": {
+        "runtime": {
+          "weather_forecast_app_entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "weather_forecast_app_entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

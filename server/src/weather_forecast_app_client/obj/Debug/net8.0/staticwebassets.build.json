@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "tXm/YnzJ4AzhsW5X5PQYERd9nNurG3zOC1E3vLYcevg=",
+  "Source": "weather_forecast_app_client",
+  "BasePath": "_content/weather_forecast_app_client",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

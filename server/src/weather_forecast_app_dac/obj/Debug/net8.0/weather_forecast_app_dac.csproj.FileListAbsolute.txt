@@ -1,0 +1,15 @@
+C:\Users\André\Documents\PersonalProjects\weather-forecast-app\server\src\weather_forecast_app_dac\bin\Debug\net8.0\weather_forecast_app_dac.deps.json
+C:\Users\André\Documents\PersonalProjects\weather-forecast-app\server\src\weather_forecast_app_dac\bin\Debug\net8.0\weather_forecast_app_dac.dll
+C:\Users\André\Documents\PersonalProjects\weather-forecast-app\server\src\weather_forecast_app_dac\bin\Debug\net8.0\weather_forecast_app_dac.pdb
+C:\Users\André\Documents\PersonalProjects\weather-forecast-app\server\src\weather_forecast_app_dac\bin\Debug\net8.0\weather_forecast_app_entities.dll
+C:\Users\André\Documents\PersonalProjects\weather-forecast-app\server\src\weather_forecast_app_dac\bin\Debug\net8.0\weather_forecast_app_entities.pdb
+C:\Users\André\Documents\PersonalProjects\weather-forecast-app\server\src\weather_forecast_app_dac\obj\Debug\net8.0\weather_forecast_app_dac.csproj.AssemblyReference.cache
+C:\Users\André\Documents\PersonalProjects\weather-forecast-app\server\src\weather_forecast_app_dac\obj\Debug\net8.0\weather_forecast_app_dac.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\André\Documents\PersonalProjects\weather-forecast-app\server\src\weather_forecast_app_dac\obj\Debug\net8.0\weather_forecast_app_dac.AssemblyInfoInputs.cache
+C:\Users\André\Documents\PersonalProjects\weather-forecast-app\server\src\weather_forecast_app_dac\obj\Debug\net8.0\weather_forecast_app_dac.AssemblyInfo.cs
+C:\Users\André\Documents\PersonalProjects\weather-forecast-app\server\src\weather_forecast_app_dac\obj\Debug\net8.0\weather_forecast_app_dac.csproj.CoreCompileInputs.cache
+C:\Users\André\Documents\PersonalProjects\weather-forecast-app\server\src\weather_forecast_app_dac\obj\Debug\net8.0\weather_forecast_app_dac.csproj.CopyComplete
+C:\Users\André\Documents\PersonalProjects\weather-forecast-app\server\src\weather_forecast_app_dac\obj\Debug\net8.0\weather_forecast_app_dac.dll
+C:\Users\André\Documents\PersonalProjects\weather-forecast-app\server\src\weather_forecast_app_dac\obj\Debug\net8.0\refint\weather_forecast_app_dac.dll
+C:\Users\André\Documents\PersonalProjects\weather-forecast-app\server\src\weather_forecast_app_dac\obj\Debug\net8.0\weather_forecast_app_dac.pdb
+C:\Users\André\Documents\PersonalProjects\weather-forecast-app\server\src\weather_forecast_app_dac\obj\Debug\net8.0\ref\weather_forecast_app_dac.dll
