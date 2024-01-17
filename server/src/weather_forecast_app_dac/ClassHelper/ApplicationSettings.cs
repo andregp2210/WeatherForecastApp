@@ -8,6 +8,7 @@ namespace weather_forecast_app_dac.ClassHelper
 {
     public class ApplicationSettings
     {
-        public static string LocationApiUrl { get; set; }
+        public static string locationApiUrl { get; set; }
+        public static string pointApiUrl { get; set; }
     }
 }

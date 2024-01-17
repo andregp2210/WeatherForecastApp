@@ -9,6 +9,10 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 
+builder.Configuration.AddJsonFile("MyConfig.json",
+        optional: true,
+        reloadOnChange: true);
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy(name: MyAllowSpecificOrigins,

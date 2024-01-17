@@ -1,19 +1,32 @@
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using weather_forecast_app_bl;
+using weather_forecast_app_dac.ClassHelper;
 using weather_forecast_app_dac.Services;
 using weather_forecast_app_entities.Models;
 
 namespace weather_forecast_app_client.Controllers
 {
+
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
+        private readonly IConfiguration Configuration;
+
+        public WeatherForecastController(IConfiguration configuration)
+        {
+            Configuration = configuration;
+            ApplicationSettings.locationApiUrl = Configuration["locationApiUrl"]!;
+            ApplicationSettings.pointApiUrl = Configuration["pointApiUrl"]!;
+        }
+
+        
 
         [HttpGet("get-weather-forecast")]
         public async Task<IActionResult> Get([FromQuery] WeatherForecastParameters weatherForecastParameters)
         {
+            
             IApiClient apiClient = new ApiClient();
             WeatherForecast forecast = new WeatherForecast(apiClient);
 

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Reflection.PortableExecutable;
 using System.Text;
 using System.Threading.Tasks;
+using weather_forecast_app_dac.ClassHelper;
 using weather_forecast_app_dac.Services;
 using weather_forecast_app_entities.Models;
 
@@ -11,8 +12,8 @@ namespace weather_forecast_app_bl
 {
     public class WeatherForecast
     {
-        private readonly Uri locationUrl = new Uri("https://geocoding.geo.census.gov/geocoder/locations/");
-        private readonly Uri pointUrl = new Uri("https://api.weather.gov/");
+        private readonly Uri locationUrl = new Uri(ApplicationSettings.locationApiUrl);
+        private readonly Uri pointUrl = new Uri(ApplicationSettings.pointApiUrl);
         private readonly IApiClient apiClient;
         private List<CustomApiHeader> customHeaders = new List<CustomApiHeader> { new CustomApiHeader { key = "User-Agent", value = "forecastapp.com" } };
 
